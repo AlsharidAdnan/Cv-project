@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(183, 181, 177);
+    font-family: 'Merienda', cursive;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(131, 179, 163);
+    margin: 0 auto;
+    padding: 15px;
+    
+    
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 110px;
+    border: 3px solid white;
+    border-radius: 50px;
+    ;
+}
+.header-bio{
+    float: right;
+    margin-right: 530px;
+    margin-top: 20px;
+
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    
+}
+.contact{
+    float: right;
+    position: relative;
+    bottom: 100px;
+   
+    
+
+    
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+
+}
+#personal-section{
+
+}
+.content{
+  margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 40%;
+    float: left;
+    position: relative;
+    left: 200px;
+
+}
+.common-hr{
+    width: 100%;
+    border: 1px solid black;
+    margin: 20 auto;
+    border-bottom: none;
+    padding: top ;
+}
+.work section .right-div p{
+    text-align: justify;
+}
+.edu-template-left{
+    float: right;
+    width: 45%;
+    
+}
+.edu-template-right{
+    float: left;
+    width: 45%;
+      
+}
+.bottom{
+    background-color: black;
+     text-align: center;
+     color:white;
+     text-decoration: none;
+}
